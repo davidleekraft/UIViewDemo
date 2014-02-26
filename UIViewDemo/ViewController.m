@@ -40,9 +40,12 @@
 }
 - (IBAction)newColor:(id)sender {
     
-    CustomView *lastView = [[self.view subviews] lastObject];
+    if ([[[self.view subviews] lastObject] isKindOfClass:[CustomView class]])
+    {
+        CustomView *lastView = [[self.view subviews] lastObject];
     
-    [lastView randomizeBackgroundColor];
+        [lastView randomizeBackgroundColor];
+    };
     
 }
 
