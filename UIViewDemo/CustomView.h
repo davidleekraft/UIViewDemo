@@ -10,4 +10,11 @@
 
 @interface CustomView : UIView
 
+@property (nonatomic) CGFloat red;
+@property (nonatomic) CGFloat green;
+@property (nonatomic) CGFloat blue;
+@property (nonatomic) BOOL userIsTouchingView;
+
+-(void)randomizeBackgroundColor;
+
 @end

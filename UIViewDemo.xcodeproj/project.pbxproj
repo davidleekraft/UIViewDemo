@@ -21,6 +21,7 @@
 		639F6AE518B59B1B0008FB15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639F6AC718B59B1A0008FB15 /* UIKit.framework */; };
 		639F6AED18B59B1B0008FB15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 639F6AEB18B59B1B0008FB15 /* InfoPlist.strings */; };
 		639F6AEF18B59B1B0008FB15 /* UIViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F6AEE18B59B1B0008FB15 /* UIViewDemoTests.m */; };
+		639F6AFA18B59CFE0008FB15 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F6AF918B59CFE0008FB15 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		639F6AEA18B59B1B0008FB15 /* UIViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		639F6AEC18B59B1B0008FB15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		639F6AEE18B59B1B0008FB15 /* UIViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewDemoTests.m; sourceTree = "<group>"; };
+		639F6AF818B59CFE0008FB15 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		639F6AF918B59CFE0008FB15 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				639F6AD218B59B1B0008FB15 /* AppDelegate.h */,
 				639F6AD318B59B1B0008FB15 /* AppDelegate.m */,
 				639F6AD518B59B1B0008FB15 /* Main.storyboard */,
+				639F6AF818B59CFE0008FB15 /* CustomView.h */,
+				639F6AF918B59CFE0008FB15 /* CustomView.m */,
 				639F6AD818B59B1B0008FB15 /* ViewController.h */,
 				639F6AD918B59B1B0008FB15 /* ViewController.m */,
 				639F6ADB18B59B1B0008FB15 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				639F6ADA18B59B1B0008FB15 /* ViewController.m in Sources */,
+				639F6AFA18B59CFE0008FB15 /* CustomView.m in Sources */,
 				639F6AD418B59B1B0008FB15 /* AppDelegate.m in Sources */,
 				639F6AD018B59B1B0008FB15 /* main.m in Sources */,
 			);
